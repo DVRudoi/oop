@@ -1,4 +1,4 @@
-public class Director extends BaseManager {
+public final class Director extends BaseManager {
 
     private static final int INDEX = 9;
 
