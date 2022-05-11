@@ -11,7 +11,7 @@ public final class Manager extends BaseManager {
     }
 
     @Override
-    public int getIndex(){
+    protected int getIndex(){
         return INDEX;
     }
 }

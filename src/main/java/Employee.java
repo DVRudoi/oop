@@ -7,7 +7,7 @@
  * setName
  * getSalary - получить зарплату
  */
-public abstract class Employee {
+public abstract class Employee implements IPaidEntity {
     private double baseSalary;
     private String name;
 
